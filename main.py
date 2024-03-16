@@ -14,7 +14,7 @@ try: custom_caption = os.environ.get("custom_caption", "`{file_name}`")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
-   name="AutoCaptionBotV1", api_id=app_id, api_hash=api_hash, bot_token=bot_token)
+   name="AutoCaptionBotV1", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 start_message = """
 <b>👋Hello {}</b>
